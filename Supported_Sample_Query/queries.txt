@@ -1,0 +1,29 @@
+1st query:
+select distinct C.cname, G.TAid,G.creditforTAofcourse
+from givecredittoTA G,coursein C,TAassist T
+where G.TAid=T.TAid AND C.cid=G.cid AND T.TAid='05' AND C.cid='014'; 
+
+find the credit(s) of a TA associate with the course (s)he has assisted 
+
+
+2nd query:
+select  C.cname, P.pname, G.creditforprofessorofcourse
+from givecredittoprofessor G,professorteachunder P,coursein C
+where  P.pid=G.pid AND P.pid='003' AND C.cid='012' AND C.cid=G.cid;
+
+find the credit(s) of a professor associate with the course (s)he has teached
+
+
+3rd query:
+select P.pname,P.diploma
+from givecredittoprofessor G,professorteachunder P
+where G.creditforprofessorofcourse='100' AND P.pid=G.pid;
+
+find the name of the professor who get at least one full credit, 
+and also print the diploma of the professor
+
+
+
+
+
+
