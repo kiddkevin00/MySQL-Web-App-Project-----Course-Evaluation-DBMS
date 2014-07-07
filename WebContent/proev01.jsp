@@ -246,21 +246,21 @@ function search3(){
  
 function search4(){
 	$('#result4').append('<%/*
-					> if(rset4 != null) { 
-						 while(rset4.next()) { 
-							 out.print("<tr>");
-								out.print("<th>"+"PROFESSOR"+"</th><th>"+"COURSE"+"</th><th>"+"EVALUATION"+"</th>");
-								out.print("</tr>"); 
-								 out.print("<tr>"); 
-								 out.print("<td>" + rset4.getString("pname")  + "</td><td>" + rset4.getString("cname") + "</td><td>" + rset4.getString("creditforprofessorofcourse")+"</td>");
-								 out.print("</tr>"); 
-						 } 
-						 } else { 
-						 out.print(error_msg); 
-						 } 
-						 if( conn4 != null ) { 
-						 conn4.close(); 
-						 } 
+			 > if(rset4 != null) { 
+			 while(rset4.next()) { 
+			 out.print("<tr>");
+			 out.print("<th>"+"PROFESSOR"+"</th><th>"+"COURSE"+"</th><th>"+"EVALUATION"+"</th>");
+			 out.print("</tr>"); 
+			 out.print("<tr>"); 
+			 out.print("<td>" + rset4.getString("pname")  + "</td><td>" + rset4.getString("cname") + "</td><td>" + rset4.getString("creditforprofessorofcourse")+"</td>");
+			 out.print("</tr>"); 
+			 } 
+			 } else { 
+			 out.print(error_msg); 
+			 } 
+			 if( conn4 != null ) { 
+			 conn4.close(); 
+			 } 
 			 */%> ');
   }
   </script> 

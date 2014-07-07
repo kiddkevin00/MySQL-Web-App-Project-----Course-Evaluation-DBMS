@@ -22,7 +22,7 @@ body {
 		Hello! The time is now
 		<%=new java.util.Date()%>
 		<hr noshade size=1 color=brown>
-		<form action="proev01.jsp">
+		<form action="./proev01.jsp">
 			<br> <br> <strong> E-MAIL : <input
 				title="please enter the valid email" type="text" name="email"
 				value=""><br> PASSWORD: <input title="at least 6 digit"
