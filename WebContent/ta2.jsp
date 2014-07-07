@@ -220,8 +220,7 @@ function search3(){
 			}
 			if (conn3 != null) {
 				conn3.close();
-			}%>
-		');
+			}%>');
 		}
 	</script>
 

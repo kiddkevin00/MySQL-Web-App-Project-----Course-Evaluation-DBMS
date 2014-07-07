@@ -128,9 +128,8 @@
 		</div>
 		<a href="http://localhost:9080/CS4111/proavg2.jsp">Check the
 			average evaluation of each professor</a> <br> <a
-			href="http://localhost:9080/CS4111/proev01.jsp"> Previous page
-			/</a> <a href="http://localhost:9080/CS4111/proev03.jsp"> / Find
-			more </a>
+			href="http://localhost:9080/CS4111/proev01.jsp"> Previous page /</a>
+		<a href="http://localhost:9080/CS4111/proev03.jsp"> / Find more </a>
 	</div>
 
 
@@ -222,8 +221,7 @@ function search7(){
 			}
 			if (conn7 != null) {
 				conn7.close();
-			}%>
-		');
+			}%>');
 		}
 	</script>
 

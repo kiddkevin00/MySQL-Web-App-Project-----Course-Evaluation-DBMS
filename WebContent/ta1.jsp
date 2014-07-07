@@ -127,8 +127,8 @@
 			<table id="result10" border="1" bgcolor="#C8C8C8">
 			</table>
 		</div>
-		<a href="http://localhost:9080/CS4111/TAavg.jsp">Check the
-			average evaluation of each TA</a> <br> <a
+		<a href="http://localhost:9080/CS4111/TAavg.jsp">Check the average
+			evaluation of each TA</a> <br> <a
 			href="http://localhost:9080/CS4111/ta2.jsp">Find more</a>
 	</div>
 
@@ -226,8 +226,7 @@ function search3(){
 			}
 			if (conn3 != null) {
 				conn3.close();
-			}%>
-		');
+			}%>');
 			$('#result2').html('');
 			$('#result1').html('');
 		}

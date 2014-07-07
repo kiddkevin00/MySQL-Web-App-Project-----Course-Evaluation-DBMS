@@ -214,8 +214,7 @@ function search7(){
 			}
 			if (conn7 != null) {
 				conn7.close();
-			}%>
-		');
+			}%>');
 		}
 	</script>
 
