@@ -42,7 +42,7 @@ public class OracleServlet extends HttpServlet {
 				String databaseName = "ENTER_YOUR_LOCAL_DATABASE_NAME";
 				String USER = "ENTER_YOUR_LOCAL_MYSQL_USER_ID";
 				String PASSWORD = "ENTER_YOUR_LOCAL_MYSQL_PASSWORD";
-				String URL = "jdbc:mysql://localhost/3307/" + databaseName;
+				String URL = "jdbc:mysql://localhost/8889/" + databaseName;
 
 				/*
 				 * Set JDBC connection, and please check if build path has
