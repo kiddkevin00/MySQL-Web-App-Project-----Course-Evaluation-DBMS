@@ -61,10 +61,6 @@ public class OracleServlet extends HttpServlet {
 				// OracleDataSource ods = new OracleDataSource();
 				// ods.setURL(connect_string);
 				// conn = ods.getConnection();
-				//
-				// Statement stmt = conn.createStatement();
-				// ResultSet rset = stmt
-				// .executeQuery("select dname from department");
 
 				conn = DriverManager.getConnection(URL, USER, PASSWORD);
 			}
